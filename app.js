@@ -34,7 +34,7 @@ app.post('/send-otp', (req, res) => {
 
 
 app.get('/send-multiple', (req, res) => {
-    let nomorall = ["087865537114", "087763305916", "083114598634"];
+    let nomorall = ["087866866694", "082339515962"];
     let b = 0;
     for (b; b < nomorall.length; b++) {
         const nomor = phoneNumberFormatter(nomorall[b]);
